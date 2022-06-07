@@ -33,6 +33,11 @@ func main() {
 	if age == 14 || age == 20 || age == 40 {
 		fmt.Println("You have to get new passport")
 	}
+
+	// Short suyntax
+	if !isChildren(age) {
+		fmt.Println("You are an adult")
+	}
 }
 
 func isChildren(age int) bool {
